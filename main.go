@@ -319,7 +319,7 @@ func main() {
 	flag.Parse()
 
 	if VersionFlag {
-		fmt.Printf("\nmm-inactive-users - Version: %s\n\n", Version)
+		fmt.Printf("\nmm-user-list - Version: %s\n\n", Version)
 		os.Exit(0)
 	}
 
